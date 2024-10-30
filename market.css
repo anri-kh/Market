@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #312D39;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.maintitle{
+    justify-content: column;
+    text-align: center;
+}
+
+.maintitle .title{
+    color: white;
+    font-size: 65px;
+    padding: 20px 0 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maintitle .text{
+    color: white;
+    padding: 10px 0 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .items{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .items .card{
+    background-color: #8B74BA;
+    width: 230px;
+    border: 8px solid transparent;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 50px;
+}
+
+.items .card .price{
+    background-color: white;
+    color: #8B74BA;
+    width: 200px;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+
+.items .card .price .class{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card .price .count{
+    font-size: 65px;
+    font-weight: 750;
+}
+
+.items .card .price .per{
+    font-size: 18px;
+    font-weight: 490;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card .list{
+    transform: translateY(-40px);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+}
+
+.items .card .list .user{
+    color: white;
+    font-size: 22px;
+    padding: 0 0 8px;
+}
+
+.items .card .list .feature{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0 15px;
+}
+
+.items .card .list .button{
+    background-color: white;
+    color: #8B74BA;
+    padding: 10px 0 10px;
+    width: 180px;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+.container .items .card1{
+    background-color: #4CB992;
+    width: 230px;
+    border: 8px solid transparent;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 50px;
+}
+
+.items .card1 .price{
+    background-color: white;
+    color: #4CB992;
+    width: 200px;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+
+.items .card1 .price .class{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card1 .price .count{
+    font-size: 65px;
+    font-weight: 750;
+}
+
+.items .card1 .price .per{
+    font-size: 18px;
+    font-weight: 490;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card1 .list{
+    transform: translateY(-40px);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+}
+
+.items .card1 .list .user{
+    color: white;
+    font-size: 22px;
+    padding: 0 0 8px;
+}
+
+.items .card1 .list .feature{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0 15px;
+}
+
+.items .card1 .list .button{
+    background-color: white;
+    color: #4CB992;
+    padding: 10px 0 10px;
+    width: 180px;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+.container .items .card2{
+    background-color: #3499E1;
+    width: 230px;
+    border: 8px solid transparent;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 50px;
+}
+
+.items .card2 .price{
+    background-color: white;
+    color: #3499E1;
+    width: 200px;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+
+.items .card2 .price .class{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card2 .price .count{
+    font-size: 65px;
+    font-weight: 750;
+}
+
+.items .card2 .price .per{
+    font-size: 18px;
+    font-weight: 490;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card2 .list{
+    transform: translateY(-40px);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+}
+
+.items .card2 .list .user{
+    color: white;
+    font-size: 22px;
+    padding: 0 0 8px;
+}
+
+.items .card2 .list .feature{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0 15px;
+}
+
+.items .card2 .list .button{
+    background-color: white;
+    color: #3499E1;
+    padding: 10px 0 10px;
+    width: 180px;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+.container .items .card3{
+    background-color: #EB9D53;
+    width: 230px;
+    border: 8px solid transparent;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 50px;
+}
+
+.items .card3 .price{
+    background-color: white;
+    color: #EB9D53;
+    width: 200px;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+
+.items .card3 .price .class{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card3 .price .count{
+    font-size: 65px;
+    font-weight: 750;
+}
+
+.items .card3 .price .per{
+    font-size: 18px;
+    font-weight: 490;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items .card3 .list{
+    transform: translateY(-40px);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+}
+
+.items .card3 .list .user{
+    color: white;
+    font-size: 22px;
+    padding: 0 0 8px;
+}
+
+.items .card3 .list .feature{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0 15px;
+}
+
+.items .card3 .list .button{
+    background-color: white;
+    color: #EB9D53;
+    padding: 10px 0 10px;
+    width: 180px;
+    margin: 30px 0 0 0;
+}
